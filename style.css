@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+
+.container{
+    max-width: 1280px;
+    margin-inline: auto;
+    padding-inline: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav{
+    display: flex;
+    height: 20vh;
+}
+
+.logo{
+    width: 20%;
+    height: 100px;
+}
+
+.logo h1{
+    width: 100%;
+    line-height: 100px;
+    color: #807bfd
+    
+}
+
+.nav-links{
+    width: 80%;
+    height: 100px;
+}
+
+.nav-links ul{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-links li a {
+    color: black;
+}
+
+.nav-links li a{
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.btn{
+    background-color: #807bfd;
+    border-radius: 8px;
+    padding: 10px 5px;
+}
+
+.btn2{
+    font-size:medium;
+    margin-top: 40px;
+    color: white;
+    border: none;
+    background-color: #807bfd;
+    border-radius: 8px;
+    padding: 16px 30px;
+}
+
+.btn a{
+    font-size: 1rem !important ;
+    font-weight: 300 !important; 
+    color: white !important;
+}
+
+.main{
+    display: flex;
+    height: 60vh;
+}
+
+.left{
+    width: 50%;
+}
+
+.left h1{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.left h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 65px;
+    margin-bottom:30px;
+    color: #807bfd;
+}
+.left .btn a{
+    color: white !important;
+}
+
+
+.down-text{
+    width: 60%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between
+}
+
+.down-text span{
+    font-size: 2rem;
+    color: #807bfd;
+    font-weight: 700;
+}
+
+
+.right{
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.right .div1{
+    height: 120px;
+    /* width: 280px; */
+    border-radius: 80px;
+    background-color: #f9c522;
+}
+
+.right .div2{
+    /* display: inline-block; */
+    margin-top: 20px;
+    margin-left: 170px;
+    height: 400px;
+    width: 150px;
+    border-radius: 80px;
+    background-color: #807bfd;
+    background-image: url(Images/girl.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.right .div3{
+    /* display: inline-block; */
+    /* margin-top: 20px; */
+    margin-left: 15px;
+    height: 400px;
+    width: 150px;
+    border-radius: 80px;
+    background-color: #f9c522;
+    background-image: url(Images/boy.png);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.right .div4{
+    /* display: inline-block; */
+    height: 120px;
+    width: 280px;
+    border-radius: 80px;
+    background-color:#807bfd;
+    margin-top: 5px;
+    margin-left: 2px;
+}
